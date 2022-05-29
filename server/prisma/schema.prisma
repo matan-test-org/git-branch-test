@@ -23,3 +23,9 @@ model Bla {
   id        String   @id @default(cuid())
   updatedAt DateTime @updatedAt
 }
+
+model Amplication1 {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  updatedAt DateTime @updatedAt
+}
