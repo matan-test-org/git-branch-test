@@ -13,6 +13,10 @@ import { BlaList } from "./bla/BlaList";
 import { BlaCreate } from "./bla/BlaCreate";
 import { BlaEdit } from "./bla/BlaEdit";
 import { BlaShow } from "./bla/BlaShow";
+import { Amplication1List } from "./amplication1/Amplication1List";
+import { Amplication1Create } from "./amplication1/Amplication1Create";
+import { Amplication1Edit } from "./amplication1/Amplication1Edit";
+import { Amplication1Show } from "./amplication1/Amplication1Show";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -52,6 +56,13 @@ const App = (): React.ReactElement => {
           edit={BlaEdit}
           create={BlaCreate}
           show={BlaShow}
+        />
+        <Resource
+          name="Amplication1"
+          list={Amplication1List}
+          edit={Amplication1Edit}
+          create={Amplication1Create}
+          show={Amplication1Show}
         />
       </Admin>
     </div>
