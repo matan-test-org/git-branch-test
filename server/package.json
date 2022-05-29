@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@nestjs/common": "CUSTOM 1",
-    "@nestjs/config": "1.1.5",
+    "@nestjs/config": "CUSTOM 2",
     "@nestjs/core": "8.2.3",
     "@nestjs/graphql": "9.1.2",
     "@nestjs/jwt": "8.0.0",
